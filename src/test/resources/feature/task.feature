@@ -17,4 +17,4 @@ Feature: Verify that User is able to register account
    	And User select year, month, day for Date of birth
    	And User type a password in the Password box
    	And User type the same password in the Confirm Password box
-   	Then User click Submit button
+   	Then User click Submit button	
