@@ -4,7 +4,7 @@ Feature: Verify that User is able to register account
     Given User open "chrome" browser
     Then User open application url "https://demo.automationtesting.in/Register.html"
    	And Verify that user landed in right application
-   	When User enter first-name in First Name text box
+   	When User enters first-name in First Name text box
    	And User enter last-name in Last Name text box
    	And User enter address in Address text box
    	And User enter a valid email id in Email Address text box
@@ -17,4 +17,5 @@ Feature: Verify that User is able to register account
    	And User select year, month, day for Date of birth
    	And User type a password in the Password box
    	And User type the same password in the Confirm Password box
+   	And User enters the following details
    	Then User click Submit button	
