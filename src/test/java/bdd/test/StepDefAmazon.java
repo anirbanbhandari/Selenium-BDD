@@ -9,7 +9,6 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import io.cucumber.java.en.*;
-//import junit.framework.Assert;
 
 public class StepDefAmazon {
 	
